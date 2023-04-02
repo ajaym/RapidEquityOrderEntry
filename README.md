@@ -1,8 +1,11 @@
-Welcome to the NextJS base template bootstrapped using the `create-next-app`. This template supports TypeScript, but you can use normal JavaScript as well.
+# Rapid
+Next App example with a quick equity order ticket.
+- it was built **rapidly** using Replit
+- it is using SSR for a **rapid** load time
+- it is designed for **rapid** order entry
 
 ## Getting Started
-
-Hit the run button to start the development server.
+Can be run on Replit. Hit the run button to start the development server.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 

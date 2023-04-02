@@ -2,7 +2,7 @@ import React from 'react';
 
 const EquityOrderEntry = () => {
   return (
-    <div className="min-h-screen bg-black p-4 flex items-center justify-center">
+    <div className="min-h-screen bg-black p-4 flex items-top justify-center">
       <form
         action="#"
         method="post"
@@ -37,7 +37,6 @@ const EquityOrderEntry = () => {
             type="number"
             id="quantity"
             name="quantity"
-            placeholder="100"
             className="input w-full bg-gray-900 text-green-500 border-green-500"
             min="1"
             required
@@ -50,7 +49,6 @@ const EquityOrderEntry = () => {
             type="number"
             id="price"
             name="price"
-            placeholder="100.00"
             className="input w-full bg-gray-900 text-green-500 border-green-500"
             min="0.01"
             step="0.01"
